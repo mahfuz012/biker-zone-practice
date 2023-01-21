@@ -1,0 +1,16 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    }
+
+.adas{
+    display: flex;
+    justify-content:end;
+}
+@media screen and (max-width:600px) {
+    .adas{
+        justify-content:start;
+    }
+}
